@@ -1,0 +1,113 @@
+LeetCode 136. Single Number
+ Approach
+
+The problem states that every element in the array appears twice except for one unique element. The goal is to find that element in O(n) time while using O(1) extra space.
+
+Instead of using a HashMap or HashSet, we can use the XOR (^) operator, which has two important properties:
+
+a ^ a = 0
+a ^ 0 = a
+
+When we XOR all the elements in the array:
+
+Every duplicate pair cancels itself out.
+The only value left is the unique number.
+Example
+nums = [4, 1, 2, 1, 2]
+
+Initial result = 0
+
+result = 0 ^ 4 = 4
+result = 4 ^ 1 = 5
+result = 5 ^ 2 = 7
+result = 7 ^ 1 = 6
+result = 6 ^ 2 = 4
+
+Answer = 4
+Algorithm
+Initialize a variable result = 0.
+Traverse the array.
+XOR every element with result.
+Return result.
+Why this works?
+
+Since duplicate numbers always become 0 after XOR, only the element without a duplicate remains.
+
+Complexity Analysis
+Complexity	Value
+Time	O(n)
+Space	O(1)
+LeetCode 70. Climbing Stairs
+ Approach (Dynamic Programming)
+
+To reach the nth stair, there are only two possibilities:
+
+Climb 1 step from (n-1)
+Climb 2 steps from (n-2)
+
+Therefore,
+
+ways(n) = ways(n-1) + ways(n-2)
+
+This is exactly the Fibonacci sequence.
+
+Instead of storing all previous values in an array, we only keep track of the last two answers, reducing the space complexity to O(1).
+
+Dry Run
+
+Suppose
+
+n = 5
+
+Initially,
+
+a = 1
+b = 2
+Iteration	c = a + b	a	b
+Start	-	1	2
+i = 3	3	2	3
+i = 4	5	3	5
+i = 5	8	5	8
+
+Answer:
+
+8
+Algorithm
+If n <= 2, return n.
+Initialize:
+a = 1
+b = 2
+Iterate from 3 to n.
+Compute:
+c = a + b
+Update:
+a = b
+b = c
+Return c.
+Why this works?
+
+Every stair can only be reached from one of the previous two stairs.
+
+So the total number of ways is simply the sum of:
+
+Ways to reach (n-1)
+Ways to reach (n-2)
+
+This follows the Fibonacci pattern.
+
+Complexity Analysis
+Complexity	Value
+Time	O(n)
+Space	O(1)
+
+ Key Takeaways
+🔹 136. Single Number
+Uses Bit Manipulation (XOR).
+Eliminates duplicate numbers efficiently.
+No extra data structures required.
+Optimal solution with O(n) time and O(1) space.
+🔹 70. Climbing Stairs
+Classic Dynamic Programming problem.
+Based on the Fibonacci recurrence relation.
+Optimized to use constant space by storing only the last two computed values.
+Runs in O(n) time and O(1) space.
