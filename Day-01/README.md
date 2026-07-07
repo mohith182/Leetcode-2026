@@ -23,6 +23,8 @@ If reversing the integer causes the value to go outside the signed 32-bit intege
 
 ---
 
+<img width="1149" height="1369" alt="5ede1c70-154e-478c-be2c-8d09f6508063" src="https://github.com/user-attachments/assets/3db5ed92-ca95-407b-b327-99f750d9921c" />
+
 ## 📝 Algorithm
 
 ```
