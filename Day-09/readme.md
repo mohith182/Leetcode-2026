@@ -15,7 +15,9 @@ Output:
 ```
 
 ---
-
+<div>
+  <img width="1122" height="1402" alt="c001bb4d-0168-4598-963c-3ae3881e91f6" src="https://github.com/user-attachments/assets/dac2e31d-af4d-41d2-8028-e600c5833d4f" />
+</div>
 ## Approach (Reverse Algorithm)
 
 Instead of moving elements one by one, we rotate the array using **3 reverse operations**.
