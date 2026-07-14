@@ -1,11 +1,7 @@
 # 35. Search Insert Position
-
 ## Problem Statement
-
 Given a sorted array of distinct integers and a target value, return the index if the target is found.
-
 If the target is not found, return the index where it should be inserted to maintain the sorted order.
-
 The expected time complexity is **O(log n)**.
 
 ---
