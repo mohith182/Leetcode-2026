@@ -48,7 +48,10 @@ After sorting the array:
 This allows us to move pointers efficiently instead of checking every combination.
 
 ---
+<div>
+    <img width="1024" height="1536" alt="e6facb50-df05-4e80-8f20-bc9237128ecd" src="https://github.com/user-attachments/assets/5afc56be-41aa-4ded-845f-18a64e5db19e" />
 
+</div>
 # Approach
 
 ### Step 1
