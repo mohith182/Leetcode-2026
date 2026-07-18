@@ -20,7 +20,10 @@ Since the array is already sorted:
 - Whenever a new element is found, move it next to the last unique element.
 
 ---
+<div>
+   <img width="1448" height="1086" alt="01e61821-2574-4601-bf3e-0261b2b82b06" src="https://github.com/user-attachments/assets/afe374f0-4a4d-49a2-a3fe-a4e1e37bd1a3" />
 
+</div>
 ## Approach (Two Pointers)
 
 - `i` → Points to the last unique element.
