@@ -67,7 +67,10 @@ class Solution {
 ```
 
 ---
+<div>
+   <img width="1536" height="1024" alt="7b73a543-64b9-491c-9ac7-84126f224280" src="https://github.com/user-attachments/assets/556fd273-c21c-442f-8666-370e55291cfc" />
 
+</div>
 ## Dry Run
 
 ### Input
