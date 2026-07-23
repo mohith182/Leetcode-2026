@@ -124,7 +124,10 @@ Total Water Trapped = **7**
 - Two Pointer is the most optimal solution with **O(n)** time and **O(1)** space.
 
 ---
+<div>
+  <img width="1254" height="1254" alt="45e5c1de-abdd-4cc7-af04-cfb1d46d788b" src="https://github.com/user-attachments/assets/288b2973-b1d2-42a6-8496-6dd5b49095e2" />
 
+</div>
 ## Interview Tips
 
 - Remember the formula:
